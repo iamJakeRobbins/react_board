@@ -13,6 +13,7 @@ class Hello extends React.Component {
 	}
 
 	render() {
+		console.log(this)
 		return <h1> Hello, {this.state.name} </h1>
 	}
 }
